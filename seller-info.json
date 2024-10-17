@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "profile_picture": "https://images.unsplash.com/photo-1520408222757-6f9f95d87d5d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvdHRlcnl8ZW58MHx8MHx8fDA=",
+        "business_name": "Artisan Pottery Co.",
+        "seller": "Handmade Pottery",
+        "about": "Beautifully crafted handmade pottery pieces.",
+        "address": "Local Artisan Store, Market St",
+        "contact": {
+            "phone": "+919876543210"
+        }
+    },
+    {
+        "id": 2,
+        "profile_picture": "https://images.unsplash.com/photo-1481900369621-54a7facacc6c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG9uZXl8ZW58MHx8MHx8fDA=",
+        "business_name": "Local Honey Farm",
+        "seller": "Organic Honey",
+        "about": "Pure organic honey sourced from local beekeepers.",
+        "address": "Bee Farm, Hillview Rd",
+        "contact": {
+            "phone": "+919876543211"
+        }
+    },
+    {
+        "id": 3,
+        "profile_picture": "https://img.freepik.com/free-photo/top-view-bunch-fresh-vegetables-composition_23-2148642957.jpg?size=626&ext=jpg",
+        "business_name": "Fresh Farms",
+        "seller": "Fresh Produce Basket",
+        "about": "A basket of fresh, organic vegetables and fruits.",
+        "address": "123 Country Road, Farming Town",
+        "contact": {
+            "phone": "+919876543212"
+        }
+    },
+    {
+        "id": 4,
+        "profile_picture": "https://cdn.pixabay.com/photo/2019/02/25/13/38/haircut-4019676_640.jpg",
+        "business_name": "City Barber Shop",
+        "seller": "Barber Services",
+        "about": "Professional barber services for haircuts and styling.",
+        "address": "Downtown Salon, City Center",
+        "contact": {
+            "phone": "+919876543213"
+        }
+    },
+    {
+        "id": 5,
+        "profile_picture": "https://thumbs.dreamstime.com/b/mechanic-work-845210.jpg",
+        "business_name": "Auto Repair Garage",
+        "seller": "Local Mechanic",
+        "about": "Reliable mechanic services for all vehicle types.",
+        "address": "Garage Lane, Industrial Area",
+        "contact": {
+            "phone": "+919876543214"
+        }
+    },
+    {
+        "id": 6,
+        "profile_picture": "https://www.ontheflychicago.net/uploads/8/2/8/7/82870374/img-20230809-182055-bokeh_orig.jpg",
+        "business_name": "Bike Fixers",
+        "seller": "Bicycle Repair Services",
+        "about": "Local bicycle repair services for all types of bikes.",
+        "address": "Bike Repair Shop, Riverfront",
+        "contact": {
+            "phone": "+919876543215"
+        }
+    },
+    {
+        "id": 7,
+        "profile_picture": "https://www.elainebjewelry.com/cdn/shop/collections/Artifact_Collection_Elaine_B_Jewelry.jpg?crop=center&height=1500&v=1728355808&width=3000",
+        "business_name": "Elaine B Jewelry",
+        "seller": "Handcrafted Jewelry",
+        "about": "Unique handcrafted jewelry pieces.",
+        "address": "Jewelry Boutique, Main Street",
+        "contact": {
+            "phone": "+919876543216"
+        }
+    },
+    {
+        "id": 8,
+        "profile_picture": "https://cdn.thewirecutter.com/wp-content/media/2023/09/scented-candle-2048px-0149.jpg?auto=webp&quality=75&width=1024",
+        "business_name": "Candle Co.",
+        "seller": "Scented Candles",
+        "about": "Hand-poured scented candles for relaxation.",
+        "address": "Candle Store, Mall Ave",
+        "contact": {
+            "phone": "+919876543217"
+        }
+    },
+    {
+        "id": 9,
+        "profile_picture": "https://media.gettyimages.com/id/1346275790/photo/male-yoga-instructor-leads-class.jpg?s=612x612&w=0&k=20&c=s-YNnfHNCHLF9gPvXomAHhXvNn_FyX37RA8beVu_lO0=",
+        "business_name": "Zen Yoga Studio",
+        "seller": "Yoga Classes",
+        "about": "Group yoga classes for all levels.",
+        "address": "Yoga Studio, Wellness Road",
+        "contact": {
+            "phone": "+919876543218"
+        }
+    },
+    {
+        "id": 10,
+        "profile_picture": "https://t4.ftcdn.net/jpg/03/05/39/85/360_F_305398567_H1CR13g3SniKCMMnEyKO7hjMrXNI9hzG.jpg",
+        "business_name": "Happy Paws Grooming",
+        "seller": "Local Pet Grooming",
+        "about": "Grooming services for your furry friends.",
+        "address": "Pet Salon, Park Ave",
+        "contact": {
+            "phone": "+919876543219"
+        }
+    },
+    {
+        "id": 11,
+        "profile_picture": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFVO_GN15-vsBAW-kLCvFXpBiDBL7iBfCGaMtFVtNDFo9NqJr7csrvPrAzxk11GxhkGCjtIqazemswEb5TDhq7yeUpAylOhv5MpYO1l78PiD09LuVBO76W2Ll2qqRwJRkDEXRS7ZmWVeY/s1600/IMG_3878%255B1%255D.JPG",
+        "business_name": "Cozinho de Farmagudi",
+        "seller": "Goan Fish Curry",
+        "about": "Authentic Goan fish curry made with fresh catch from local waters.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543221"
+        }
+    },
+    {
+        "id": 12,
+        "profile_picture": "https://cdn.thegoavilla.com/static/img/articles/feni-in-goa.jpg",
+        "business_name": "Arlem Distilleries",
+        "seller": "Local Feni",
+        "about": "Traditional Goan Feni made from cashew apples.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543221"
+        }
+    },
+    {
+        "id": 13,
+        "profile_picture": "https://imgs.search.brave.com/7BFcPXkN8NSIIzS7oCpO80w2UinLHoBjZA9h7VNScgs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U5Lzlj/LzQ4L2U5OWM0ODQ1/MjUwMWU1M2UzNDI2/NGE4YmIwM2YxNmZh/LmpwZw",
+        "business_name": "Coconut Craft Co.",
+        "seller": "Handwoven Coconut Baskets",
+        "about": "Beautifully handwoven baskets made from coconut fibers.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543222"
+        }
+    },
+    {
+        "id": 14,
+        "profile_picture": "https://imgs.search.brave.com/kzDXobL-PeK-FM2WpXsCm1PUHtOpACE5IPKA0Y1-yLQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmFtYXN0ZWluZGlh/dHJpcC5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMTAv/Q29ycmlkaW5oby1E/YW5jZS5qcGc",
+        "business_name": "Goan Dance Academy",
+        "seller": "Goan Traditional Dance Classes",
+        "about": "Learn traditional Goan dance forms in a fun environment.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543223"
+        }
+    },
+    {
+        "id": 15,
+        "profile_picture": "https://imgs.search.brave.com/vyHJ03Z76dPEst4MdHF8Qxexv9Nlvt8JSQc-CrkUE38/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlsbGFjYWxhbmd1/dGUuY29tL2Jsb2cv/c3BpY2UtcGxhbnRh/dGlvbnMtaW4tZ29h/L3NwaWNlLXBsYW50/YXRpb25zLWluLWdv/YS1sYXJnZS5qcGc",
+        "business_name": "Goan Spice Tours",
+        "seller": "Spice Tour Experience",
+        "about": "Guided tours of local spice plantations, learn about cultivation.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543224"
+        }
+    },
+    {
+        "id": 16,
+        "profile_picture": "https://media.gettyimages.com/id/941913154/photo/coconut-oil.jpg?s=612x612&w=0&k=20&c=nc1qWQCsvT_mBnp_FT0Sc7fK3Z_nBNyt6ciBhM-bg9A=",
+        "business_name": "Coconut Oil Factory",
+        "seller": "Coconut Oil",
+        "about": "Pure, cold-pressed coconut oil sourced from local farms.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543225"
+        }
+    },
+    {
+        "id": 17,
+        "profile_picture": "https://i0.wp.com/veenapatwardhan.com/pat-a-cake/wp-content/uploads/2022/11/Goan-Poee-Easy-Recipe.jpg?w=760&ssl=1",
+        "business_name": "Pedro Baker",
+        "seller": "Goan Breads (Poi)",
+        "about": "Traditional Goan bread, soft and fluffy, perfect for meals.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543226"
+        }
+    },
+    {
+        "id": 18,
+        "profile_picture": "https://static1.squarespace.com/static/5e558c8165fc4c78f502938d/5e5593c1df34243c4af851d1/5f2ef91617f1700098beec35/1597936610448/Friday+Market+Mapusa.+Credit+Anthony+Dcosta.jpg?format=1500w",
+        "business_name": "Goan Meat Market",
+        "seller": "Goan Sausages",
+        "about": "Spicy, flavorful Goan sausages made with traditional recipes.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543227"
+        }
+    },
+    {
+        "id": 19,
+        "profile_picture": "https://i.ytimg.com/vi/-Iw6R0pho4c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC02PvxgDcpcTzfq_eK4P6SlqFSWw",
+        "business_name": "Zantye Cashew",
+        "seller": "Cashew Nuts",
+        "about": "Roasted cashew nuts, a healthy and tasty snack.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543228"
+        }
+    },
+    {
+        "id": 20,
+        "profile_picture": "https://media.assettype.com/knocksense%2Fimport%2F26934804%2Forigin.jpg?w=1200&auto=format%2Ccompress&fit=max",
+        "business_name": "Goan Tile Makers",
+        "seller": "Handmade Goan Tiles",
+        "about": "Beautifully crafted handmade tiles, perfect for home decor.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543229"
+        }
+    },
+    {
+        "id": 21,
+        "profile_picture": "https://imgs.search.brave.com/7JOEZ8laExnTbAZw0WINRel3GX3Lm43tYrSp50Vrous/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/bzIuZm9vZGdhd2tl/ci5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTQvMDcvMTg3/NDA5MS5qcGc",
+        "business_name": "Goan Pickle Factory",
+        "seller": "Traditional Goan Pickles",
+        "about": "Spicy and tangy pickles made from locally sourced ingredients.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543230"
+        }
+    },
+    {
+        "id": 22,
+        "profile_picture": "https://i.etsystatic.com/36639322/c/1692/1692/187/201/il/94c687/5431158525/il_600x600.5431158525_d3ne.jpg",
+        "business_name": "Goan Herbal Soaps",
+        "seller": "Natural Herbal Soaps",
+        "about": "Handmade herbal soaps using natural ingredients.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543231"
+        }
+    },
+    {
+        "id": 23,
+        "profile_picture": "https://content.jdmagicbox.com/comp/goa/h8/0832px832.x832.130307160849.w3h8/catalogue/panjim-art-gallery-panjim-goa-art-galleries-m8k0h2sts8.jpg",
+        "business_name": "Goan Art Gallery",
+        "seller": "Local Artwork",
+        "about": "Beautiful paintings and art pieces created by local artists.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543232"
+        }
+    },
+    {
+        "id": 24,
+        "profile_picture": "https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg",
+        "business_name": "Local Cafe",
+        "seller": "Cafe Services",
+        "about": "Fresh coffee and pastries from the heart of the community.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543223"
+        }
+    },
+    {
+        "id": 25,
+        "profile_picture": "https://s3-media0.fl.yelpcdn.com/bphoto/6HSuzb-PrMA2h0hcasxajw/1000s.jpg",
+        "business_name": "Artisan Crafts",
+        "seller": "Craft Store",
+        "about": "Unique handmade goods by local artisans.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543224"
+        }
+    },
+    {
+        "id": 26,
+        "profile_picture": "https://clivesofcropthorne.co.uk/wp-content/uploads/elementor/thumbs/Farm-shop-q36bp30pomu23maikkqsngf6kre4g2n5zbaxq8w4mo.jpg",
+        "business_name": "Local Farm",
+        "seller": "Farm Shop",
+        "about": "Organic produce sourced directly from nearby farms.",
+        "address": "Goa, India",
+        "contact": {
+            "phone": "+919876543225"
+        }
+    }
+]

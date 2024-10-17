@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Pulse - Empowering Community Commerce</title>
+    <link rel="stylesheet" href="indexstyling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Local Pulse</div>
+            <ul class="nav-links">
+                <li><a href="#map">Explore</a></li>
+                <li><a href="#shop">Shop Local</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-content" style="padding: 10px;">
+            <h1>Empowering Local Commerce, Connecting Communities</h1>
+            <p>Discover, shop, and support local businesses in your neighborhood.</p>
+            <a href="#shop" class="btn-primary">Start Shopping</a>
+        </div>
+    </section>
+    <section id="map">
+        <h2>Discover Local Businesses</h2>
+        <div class="map-container">
+            <!-- Google Maps API or Static Image Map Placeholder -->
+            <div class="map-placeholder">
+                <p>Map will go here (Google Maps API or interactive image).</p>
+            </div>
+        </div>
+    </section>
+    <section id="shop" class="shop">
+        <a href="product.html" style="text-decoration: none; color: inherit;">
+            <div class="local">
+                <h2 style="margin-bottom: 20px;">Shop Local Products</h2>
+                <div class="shop-grid">
+                    <div class="shop-card">
+                        <img src="https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg"
+                            alt="Local Cafe">
+                        <h3>Local Cafe</h3>
+                        <p>Fresh coffee and pastries from the heart of the community.</p>
+                    </div>
+                    <div class="shop-card">
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/6HSuzb-PrMA2h0hcasxajw/1000s.jpg"
+                            alt="Craft Store">
+                        <h3>Craft Store</h3>
+                        <p>Unique handmade goods by local artisans.</p>
+                    </div>
+                    <div class="shop-card">
+                        <img src="https://clivesofcropthorne.co.uk/wp-content/uploads/elementor/thumbs/Farm-shop-q36bp30pomu23maikkqsngf6kre4g2n5zbaxq8w4mo.jpg"
+                            alt="Farm Shop">
+                        <h3>Farm Shop</h3>
+                        <p>Organic produce sourced directly from nearby farms.</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section id="events" class="events">
+        <div class="comm">
+            <h2 style="padding-bottom: 20px;">Upcoming Community Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <h3>Artisan Market</h3>
+                    <img src="https://img.freepik.com/premium-photo/local-artisan-market-picture-vibrant-local-artisan-market-nestled-heart-community_1010572-10010.jpg"
+                        alt="" id="img1">
+                    <p>Join us for a vibrant day of handmade goods.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Food Truck Festival</h3>
+                    <img src="https://www.partyone.in/suploads/2024/Feb/05/34408/1707118405weeding_food_truck.webp"
+                        alt="" id="img2">
+                    <p>A variety of gourmet street food from local vendors.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Charity Run</h3>
+                    <img src="https://listencenter.org/wp-content/uploads/2024/04/close-up-hands-holding-heart.jpg"
+                        alt="" id="img3">
+                    <p>Support local causes and get active with your community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Local Pulse</h2>
+        <p>Local Pulse is a platform that connects residents with local businesses, services, and events. We aim to
+            strengthen community ties and promote sustainable commerce by making it easier for residents to shop local.
+        </p>
+    </section>
+
+    <section id="contact" class="con">
+        <div class="forminfo">
+            <h2 style="margin-bottom: 20px;">Contact Us</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" style="margin-bottom: 10px;">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright@2024 Local Pulse | Designed by INITIATORS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        doc.setFontSize(20);
+        doc.text("Contact Us Details", 20, 20);
+        doc.setFontSize(12);
+        doc.text(`Name: ${name}`, 20, 40);
+        doc.text(`Email: ${email}`, 20, 50);
+        doc.text(`Message: ${message}`, 20, 60);
+        doc.save("contact_details.pdf");
+    });
+    function initMap() {
+        const location = { lat: -34.397, lng: 150.644 }; // Set your desired location
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 8,
+            center: location,
+        });
+        new google.maps.Marker({
+            position: location,
+            map: map,
+        });
+    }
+    // Load the map after the page loads
+    window.onload = initMap;
+
+</script>

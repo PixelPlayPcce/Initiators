@@ -1,0 +1,393 @@
+[
+    {
+        "id": 11,
+        "name": "Goan Fish Curry",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFVO_GN15-vsBAW-kLCvFXpBiDBL7iBfCGaMtFVtNDFo9NqJr7csrvPrAzxk11GxhkGCjtIqazemswEb5TDhq7yeUpAylOhv5MpYO1l78PiD09LuVBO76W2Ll2qqRwJRkDEXRS7ZmWVeY/s1600/IMG_3878%255B1%255D.JPG",
+        "price": "₹50",
+        "rating": 4.8,
+        "description": "Authentic Goan fish curry made with fresh catch from local waters.",
+        "details": [
+            { "title": "Homemade Recipe", "content": "Cooked using traditional Goan spices." },
+            { "title": "Fresh Ingredients", "content": "Made with locally sourced fish and vegetables." }
+        ],
+        "contact": "+919876543220",
+        "sellerId": "11",
+        "sellerName": "Cozinho de Farmagudi"
+    },
+    {
+        "id": 12,
+        "name": "Local Feni",
+        "image": "https://cdn.thegoavilla.com/static/img/articles/feni-in-goa.jpg",
+        "price": "₹600",
+        "rating": 4.5,
+        "description": "Traditional Goan Feni made from cashew apples.",
+        "details": [
+            { "title": "Crafted Locally", "content": "Brewed using time-honored techniques." },
+            { "title": "Distinct Flavor", "content": "A unique spirit with a fruity aroma." }
+        ],
+        "contact": "+919876543221",
+        "sellerId": "12",
+        "sellerName": "Arlem Distilleries"
+    },
+    {
+        "id": 13,
+        "name": "Handwoven Coconut Baskets",
+        "image": "https://imgs.search.brave.com/7BFcPXkN8NSIIzS7oCpO80w2UinLHoBjZA9h7VNScgs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U5Lzlj/LzQ4L2U5OWM0ODQ1/MjUwMWU1M2UzNDI2/NGE4YmIwM2YxNmZh/LmpwZw",
+        "price": "₹150",
+        "rating": 4.9,
+        "description": "Beautifully handwoven baskets made from coconut fibers.",
+        "details": [
+            { "title": "Sustainable Materials", "content": "Eco-friendly and durable." },
+            { "title": "Perfect for Decor", "content": "Ideal for storage or as decorative pieces." }
+        ],
+        "contact": "+919876543222",
+        "sellerId": "13",
+        "sellerName": "Coconut Craft Co."
+    },
+    {
+        "id": 14,
+        "name": "Goan Traditional Dance Classes",
+        "image": "https://imgs.search.brave.com/kzDXobL-PeK-FM2WpXsCm1PUHtOpACE5IPKA0Y1-yLQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmFtYXN0ZWluZGlh/dHJpcC5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMTAv/Q29ycmlkaW5oby1E/YW5jZS5qcGc",
+        "price": "",
+        "rating": 4.7,
+        "description": "Learn traditional Goan dance forms in a fun environment.",
+        "details": [
+            { "title": "Experienced Instructors", "content": "Trainers with a passion for Goan culture." },
+            { "title": "Group Sessions", "content": "Join us for lively dance classes." }
+        ],
+        "contact": "+919876543223",
+        "sellerId": "14",
+        "sellerName": "Goan Dance Academy"
+    },
+    {
+        "id": 15,
+        "name": "Spice Tour Experience",
+        "image": "https://imgs.search.brave.com/vyHJ03Z76dPEst4MdHF8Qxexv9Nlvt8JSQc-CrkUE38/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlsbGFjYWxhbmd1/dGUuY29tL2Jsb2cv/c3BpY2UtcGxhbnRh/dGlvbnMtaW4tZ29h/L3NwaWNlLXBsYW50/YXRpb25zLWluLWdv/YS1sYXJnZS5qcGc",
+        "price": "",
+        "rating": 4.9,
+        "description": "Guided tours of local spice plantations, learn about cultivation.",
+        "details": [
+            { "title": "Interactive Learning", "content": "Discover various spices and their uses." },
+            { "title": "Cultural Insights", "content": "Immerse yourself in Goan agriculture." }
+        ],
+        "contact": "+919876543224",
+        "sellerId": "15",
+        "sellerName": "Goan Spice Tours"
+    },
+    {
+        "id": 16,
+        "name": "Coconut Oil",
+        "image": "https://media.gettyimages.com/id/941913154/photo/coconut-oil.jpg?s=612x612&w=0&k=20&c=nc1qWQCsvT_mBnp_FT0Sc7fK3Z_nBNyt6ciBhM-bg9A=",
+        "price": "₹30",
+        "rating": 4.8,
+        "description": "Pure, cold-pressed coconut oil sourced from local farms.",
+        "details": [
+            { "title": "Organic and Natural", "content": "Ideal for cooking and skin care." },
+            { "title": "Versatile Use", "content": "Perfect for hair and body treatments." }
+        ],
+        "contact": "+919876543225",
+        "sellerId": "16",
+        "sellerName": "Coconut Oil Factory"
+    },
+    {
+        "id": 17,
+        "name": "Goan Breads (Poi)",
+        "image": "https://i0.wp.com/veenapatwardhan.com/pat-a-cake/wp-content/uploads/2022/11/Goan-Poee-Easy-Recipe.jpg?w=760&ssl=1",
+        "price": "₹5",
+        "rating": 4.7,
+        "description": "Traditional Goan bread, soft and fluffy, perfect for meals.",
+        "details": [
+            { "title": "Freshly Baked", "content": "Made daily using local ingredients." },
+            { "title": "Culinary Staple", "content": "Pairs well with curries and gravies." }
+        ],
+        "contact": "+919876543226",
+        "sellerId": "17",
+        "sellerName": "Pedro Baker"
+    },
+    {
+        "id": 18,
+        "name": "Goan Sausages",
+        "image": "https://static1.squarespace.com/static/5e558c8165fc4c78f502938d/5e5593c1df34243c4af851d1/5f2ef91617f1700098beec35/1597936610448/Friday+Market+Mapusa.+Credit+Anthony+Dcosta.jpg?format=1500w",
+        "price": "₹300",
+        "rating": 4.9,
+        "description": "Spicy, flavorful Goan sausages made with traditional recipes.",
+        "details": [
+            { "title": "Locally Made", "content": "Crafted using local spices and meat." },
+            { "title": "Perfect for Cooking", "content": "Great in stews, curries, or grilled." }
+        ],
+        "contact": "+919876543227",
+        "sellerId": "18",
+        "sellerName": "Goan Meat Market"
+    },
+    {
+        "id": 19,
+        "name": "Cashew Nuts",
+        "image": "https://i.ytimg.com/vi/-Iw6R0pho4c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC02PvxgDcpcTzfq_eK4P6SlqFSWw",
+        "price": "₹400",
+        "rating": 4.6,
+        "description": "Roasted cashew nuts, a healthy and tasty snack.",
+        "details": [
+            { "title": "Freshly Harvested", "content": "Locally sourced and roasted." },
+            { "title": "Nutritious Snack", "content": "Packed with protein and healthy fats." }
+        ],
+        "contact": "+919876543228",
+        "sellerId": "19",
+        "sellerName": "Zantye Cashew"
+    },
+    {
+        "id": 20,
+        "name": "Handmade Goan Tiles",
+        "image": "https://media.assettype.com/knocksense%2Fimport%2F26934804%2Forigin.jpg?w=1200&auto=format%2Ccompress&fit=max",
+        "price": "₹800",
+        "rating": 4.7,
+        "description": "Beautifully crafted handmade tiles, perfect for home decor.",
+        "details": [
+            { "title": "Unique Patterns", "content": "Each tile features intricate designs." },
+            { "title": "Durable and Long-lasting", "content": "Ideal for flooring and wall decor." }
+        ],
+        "contact": "+919876543229",
+        "sellerId": "20",
+        "sellerName": "Goan Tile Makers"
+    },
+    {
+        "id": 21,
+        "name": "Traditional Goan Pickles",
+        "image": "https://imgs.search.brave.com/7JOEZ8laExnTbAZw0WINRel3GX3Lm43tYrSp50Vrous/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/bzIuZm9vZGdhd2tl/ci5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTQvMDcvMTg3/NDA5MS5qcGc",
+        "price": "₹200",
+        "rating": 4.8,
+        "description": "Spicy and tangy pickles made from locally sourced ingredients.",
+        "details": [
+            { "title": "Authentic Recipes", "content": "Prepared using traditional methods." },
+            { "title": "Perfect for Accompanying Meals", "content": "Enhance the flavor of any dish." }
+        ],
+        "contact": "+919876543230",
+        "sellerId": "21",
+        "sellerName": "Goan Pickle Factory"
+    },
+    {
+        "id": 22,
+        "name": "Natural Herbal Soaps",
+        "image": "https://i.etsystatic.com/36639322/c/1692/1692/187/201/il/94c687/5431158525/il_600x600.5431158525_d3ne.jpg",
+        "price": "₹150",
+        "rating": 4.7,
+        "description": "Handmade herbal soaps using natural ingredients.",
+        "details": [
+            { "title": "Chemical-Free", "content": "Gentle on skin and environmentally friendly." },
+            { "title": "Variety of Scents", "content": "Choose from lavender, coconut, and more." }
+        ],
+        "contact": "+919876543231",
+        "sellerId": "22",
+        "sellerName": "Goan Herbal Soaps"
+    },
+    {
+        "id": 23,
+        "name": "Local Artwork",
+        "image": "https://content.jdmagicbox.com/comp/goa/h8/0832px832.x832.130307160849.w3h8/catalogue/panjim-art-gallery-panjim-goa-art-galleries-m8k0h2sts8.jpg",
+        "price": "₹1200",
+        "rating": 4.9,
+        "description": "Beautiful paintings and art pieces created by local artists.",
+        "details": [
+            { "title": "Unique Styles", "content": "Showcasing Goan culture and landscapes." },
+            { "title": "Perfect for Home Decor", "content": "Add a touch of Goa to your space." }
+        ],
+        "contact": "+919876543232",
+        "sellerId": "23",
+        "sellerName": "Goan Art Gallery"
+    },
+    
+    {
+        "id": 1,
+        "name": "Handmade Pottery",
+        "image": "https://images.unsplash.com/photo-1520408222757-6f9f95d87d5d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvdHRlcnl8ZW58MHx8MHx8fDA=",
+        "price": "₹499",
+        "rating": 4.7,
+        "description": "Beautifully crafted handmade pottery pieces.",
+        "details": [
+            { "title": "Unique Designs", "content": "Each piece is uniquely designed, perfect for decoration." },
+            { "title": "Eco-friendly Materials", "content": "Made with natural clay and non-toxic glazes." }
+        ],
+        "contact": "+919876543210",
+        "sellerId": "1",
+        "sellerName": "Artisan Pottery Co."
+    },
+    {
+        "id": 2,
+        "name": "Organic Honey",
+        "image": "https://images.unsplash.com/photo-1481900369621-54a7facacc6c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG9uZXl8ZW58MHx8MHx8fDA=",
+        "price": "₹350",
+        "rating": 4.9,
+        "description": "Pure organic honey sourced from local beekeepers.",
+        "details": [
+            { "title": "Raw and Unfiltered", "content": "Contains all the natural enzymes and nutrients." },
+            { "title": "Locally Sourced", "content": "Harvested from hives in nearby farms." }
+        ],
+        "contact": "+919876543211",
+        "sellerId": "2",
+        "sellerName": "Local Honey Farm"
+    },
+    {
+        "id": 3,
+        "name": "Fresh Produce Basket",
+        "image": "https://img.freepik.com/free-photo/top-view-bunch-fresh-vegetables-composition_23-2148642957.jpg?size=626&ext=jpg",
+        "price": "₹799",
+        "rating": 4.8,
+        "description": "A basket of fresh, organic vegetables and fruits.",
+        "details": [
+            { "title": "Seasonal Varieties", "content": "Includes a variety of seasonal fruits and vegetables." },
+            { "title": "Locally Grown", "content": "All produce is sourced from local farmers." }
+        ],
+        "contact": "+919876543212",
+        "sellerId": "3",
+        "sellerName": "Fresh Farms"
+    },
+    {
+        "id": 4,
+        "name": "Barber Services",
+        "image": "https://cdn.pixabay.com/photo/2019/02/25/13/38/haircut-4019676_640.jpg",
+        "price": "",
+        "rating": 4.6,
+        "description": "Professional barber services for haircuts and styling.",
+        "details": [
+            { "title": "Experienced Barbers", "content": "Skilled barbers with years of experience." },
+            { "title": "Walk-ins Welcome", "content": "No appointments necessary; just walk in!" }
+        ],
+        "contact": "+919876543213",
+        "sellerId": "4",
+        "sellerName": "City Barber Shop"
+    },
+    {
+        "id": 5,
+        "name": "Local Mechanic",
+        "image": "https://thumbs.dreamstime.com/b/mechanic-work-845210.jpg",
+        "price": "",
+        "rating": 4.5,
+        "description": "Reliable mechanic services for all vehicle types.",
+        "details": [
+            { "title": "Quick Repairs", "content": "Fast and efficient service for minor and major repairs." },
+            { "title": "Affordable Pricing", "content": "Transparent pricing with no hidden fees." }
+        ],
+        "contact": "+919876543214",
+        "sellerId": "5",
+        "sellerName": "Auto Repair Garage"
+    },
+    {
+        "id": 6,
+        "name": "Bicycle Repair Services",
+        "image": "https://www.ontheflychicago.net/uploads/8/2/8/7/82870374/img-20230809-182055-bokeh_orig.jpg",
+        "price": "",
+        "rating": 4.8,
+        "description": "Local bicycle repair services for all types of bikes.",
+        "details": [
+            { "title": "Tune-ups Available", "content": "Full tune-up services for better performance." },
+            { "title": "Parts Replacement", "content": "We carry a variety of bike parts for quick replacements." }
+        ],
+        "contact": "+919876543215",
+        "sellerId": "6",
+        "sellerName": "Bike Fixers"
+    },
+    {
+        "id": 7,
+        "name": "Handcrafted Jewelry",
+        "image": "https://www.elainebjewelry.com/cdn/shop/collections/Artifact_Collection_Elaine_B_Jewelry.jpg?crop=center&height=1500&v=1728355808&width=3000",
+        "price": "₹1200",
+        "rating": 4.9,
+        "description": "Unique handcrafted jewelry pieces.",
+        "details": [
+            { "title": "Custom Designs", "content": "Tailored to fit your style and preference." },
+            { "title": "Quality Materials", "content": "Crafted using high-quality metals and stones." }
+        ],
+        "contact": "+919876543216",
+        "sellerId": "7",
+        "sellerName": "Elaine B Jewelry"
+    },
+    {
+        "id": 8,
+        "name": "Scented Candles",
+        "image": "https://cdn.thewirecutter.com/wp-content/media/2023/09/scented-candle-2048px-0149.jpg?auto=webp&quality=75&width=1024",
+        "price": "₹300",
+        "rating": 4.5,
+        "description": "Hand-poured scented candles for relaxation.",
+        "details": [
+            { "title": "Variety of Scents", "content": "Choose from a wide range of fragrances." },
+            { "title": "Long-lasting", "content": "Enjoy hours of soothing aromas." }
+        ],
+        "contact": "+919876543217",
+        "sellerId": "8",
+        "sellerName": "Candle Co."
+    },
+    {
+        "id": 9,
+        "name": "Yoga Classes",
+        "image": "https://media.gettyimages.com/id/1346275790/photo/male-yoga-instructor-leads-class.jpg?s=612x612&w=0&k=20&c=s-YNnfHNCHLF9gPvXomAHhXvNn_FyX37RA8beVu_lO0=",
+        "price": "",
+        "rating": 4.8,
+        "description": "Group yoga classes for all levels.",
+        "details": [
+            { "title": "Experienced Instructors", "content": "Guided by certified yoga trainers." },
+            { "title": "Flexible Timings", "content": "Morning and evening sessions available." }
+        ],
+        "contact": "+919876543218",
+        "sellerId": "9",
+        "sellerName": "Zen Yoga Studio"
+    },
+    {
+        "id": 10,
+        "name": "Local Pet Grooming",
+        "image": "https://t4.ftcdn.net/jpg/03/05/39/85/360_F_305398567_H1CR13g3SniKCMMnEyKO7hjMrXNI9hzG.jpg",
+        "price": "",
+        "rating": 4.6,
+        "description": "Grooming services for your furry friends.",
+        "details": [
+            { "title": "Bathing and Trimming", "content": "Complete grooming package available." },
+            { "title": "Friendly Staff", "content": "We love pets and treat them with care." }
+        ],
+        "contact": "+919876543219",
+        "sellerId": "10",
+        "sellerName": "Happy Paws Grooming"
+    },
+    {
+        "id": 24,
+        "name": "Local Cafe",
+        "image": "https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg",
+        "price": "",
+        "rating": 4.7,
+        "description": "Fresh coffee and pastries from the heart of the community.",
+        "details": [
+            { "title": "Cozy Atmosphere", "content": "A warm and inviting place to relax." },
+            { "title": "Locally Sourced Ingredients", "content": "Using fresh and local produce for all dishes." }
+        ],
+        "contact": "+919876543223",
+        "sellerId": "24",
+        "sellerName": "Local Cafe"
+    },
+    {
+        "id": 25,
+        "name": "Craft Store",
+        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/6HSuzb-PrMA2h0hcasxajw/1000s.jpg",
+        "price": "",
+        "rating": 4.9,
+        "description": "Unique handmade goods by local artisans.",
+        "details": [
+            { "title": "Artisan Creations", "content": "Featuring one-of-a-kind crafts and artworks." },
+            { "title": "Support Local Artisans", "content": "Every purchase helps local creators thrive." }
+        ],
+        "contact": "+919876543224",
+        "sellerId": "25",
+        "sellerName": "Artisan Crafts"
+    },
+    {
+        "id": 26,
+        "name": "Farm Shop",
+        "image": "https://clivesofcropthorne.co.uk/wp-content/uploads/elementor/thumbs/Farm-shop-q36bp30pomu23maikkqsngf6kre4g2n5zbaxq8w4mo.jpg",
+        "price": "",
+        "rating": 4.8,
+        "description": "Organic produce sourced directly from nearby farms.",
+        "details": [
+            { "title": "Fresh and Organic", "content": "All produce is grown without chemicals." },
+            { "title": "Support Local Farmers", "content": "Buy directly from the source." }
+        ],
+        "contact": "+919876543225",
+        "sellerId": "26",
+        "sellerName": "Local Farm"
+    }
+]

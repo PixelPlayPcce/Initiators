@@ -1,0 +1,280 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #4A47A3;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.burger-menu {
+    display: none;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, rgba(74, 71, 163, 0.9), rgba(98, 84, 171, 0.8)), url('https://via.placeholder.com/');
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    padding: 0.75rem 1.5rem;
+    background-color: #FFA534;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #E5942D;
+}
+
+#map {
+    padding: 4rem 5%;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.map-placeholder {
+    background-color: #e1e1e1;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#shop .shop-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.shop-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    width: 30%;
+}
+
+.shop-card img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.shop-card h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+#events .events-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.event-card {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    margin-bottom: 1rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Centering vertically */
+}
+
+#contact .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contactForm button {
+    background-color: #4A47A3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4A47A3;
+    color: white;
+}
+
+.forminfo {
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5rem;
+}
+
+.about {
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    margin: 5rem;
+}
+
+.about h3,
+.about p {
+    color: rgb(0, 0, 0);
+    transition: none;
+}
+
+.about:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.events {
+    margin: 65px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop {
+    margin: 65px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.events:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.shop:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#img1 {
+    width: 150px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#img2 {
+    width: 150px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#img3 {
+    width: 150px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.local {
+    margin: 1em;
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25px;
+    transition: none;
+}
+
+.comm {
+    margin: 1em;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+
+    border-radius: 25px;
+    transition: none;
+}

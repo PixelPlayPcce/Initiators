@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local Market Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product_styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container my-5" id="product-list">
+        <div class="row g-4">
+            <!-- Products will be rendered here -->
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $.getJSON('products.json', function(data) {
+                data.forEach(product => {
+                    let productHtml = `
+                        <div class="col-lg-6 col-md-12 mb-4">
+                            <div class="product-card">
+                                <img src="${product.image}" class="img-fluid" alt="${product.name}">
+                                <div class="product-info">
+                                    <h5><span class="badge text-bg-success">⭐ ${product.rating}</span></h5>
+                                    <h2>${product.name}</h2>
+                                    <p class="text-muted">${product.description}</p>
+                                    <h4 class="text-primary">${product.price || "On Appointment"}</h4>
+                                    <p><strong>Seller:</strong> <a href="seller-profile.html?id=${product.sellerId}" class="text-decoration-none">${product.sellerName}</a></p>
+                                    <div class="btn-group mb-3">
+                                        <button type="button" class="btn btn-warning">🛒 Add to cart</button>
+                                        <a href="buy.html?id=${product.id}" class="btn btn-danger">⚡ Buy Now</a>
+                                    </div>
+                                    <hr>
+                                    <h5>Details</h5>
+                                    ${product.details.map(detail => `
+                                        <p><strong>${detail.title}:</strong> ${detail.content}</p>
+                                    `).join('')}
+                                    <p><strong>Contact:</strong> ${product.contact}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    $('#product-list .row').append(productHtml);
+                });
+            }).fail(function() {
+                console.error("Failed to load the JSON file.");
+                $('#product-list').html('<p class="text-danger">Unable to load products.</p>');
+            });
+        });
+    </script>
+</body>
+
+</html>

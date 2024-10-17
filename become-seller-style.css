@@ -1,0 +1,69 @@
+body{
+    align-content: center;
+    background-image: linear-gradient(to right, #75e2e9 , #8bc6ec);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.main{
+    margin : 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+}
+
+
+.title {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Align text to center */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: x-large; /* Slightly larger, more readable */
+    font-weight: bold; /* Make it stand out more */
+    margin: 20px 0; /* Add some spacing above and below */
+}
+
+
+.sub-title{
+    justify-content: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: 50;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Flexbox container */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+/* Flex items (forms) */
+.left-form, .right-form {
+    flex: 1;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+/* Remove extra margin from the last form */
+.right-form {
+    margin-right: 0;
+}
+
+/* Responsive flex */
+@media (max-width: 768px) {
+    .left-form, .right-form {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}
