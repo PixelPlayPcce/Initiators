@@ -7,9 +7,16 @@
     <title>Local Pulse - Empowering Community Commerce</title>
     <link rel="stylesheet" href="indexstyling.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+            width: 80%;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,7 +25,7 @@
         <nav class="navbar">
             <div class="logo">Local Pulse</div>
             <ul class="nav-links">
-                <li><a href="#map">Explore</a></li>
+                <li><a href="#map1">Explore</a></li>
                 <li><a href="#shop">Shop Local</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#about">About</a></li>
@@ -31,6 +38,7 @@
             </div>
         </nav>
     </header>
+
     <section id="hero">
         <div class="hero-content" style="padding: 10px;">
             <h1>Empowering Local Commerce, Connecting Communities</h1>
@@ -38,42 +46,41 @@
             <a href="#shop" class="btn-primary">Start Shopping</a>
         </div>
     </section>
-    <section id="map">
+
+    <section id="map1">
+
         <h2>Discover Local Businesses</h2>
         <div class="map-container">
-            <!-- Google Maps API or Static Image Map Placeholder -->
-            <div class="map-placeholder">
-                <p>Map will go here (Google Maps API or interactive image).</p>
+            <div id="map" class="map-placeholder"></div>
+        </div>
+    </section>
+    <div class="spacer"></div>
+    <section id="shop" class="shop">
+        <div class="local">
+            <h2 style="margin-bottom: 20px;">Shop Local Products</h2>
+            <div class="shop-grid">
+                <div class="shop-card">
+                    <img src="https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg"
+                        alt="Local Cafe" style="margin: auto;">
+                    <h3>Local Cafe</h3>
+                    <p>Fresh coffee and pastries from the heart of the community.</p>
+                </div>
+                <div class="shop-card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/6HSuzb-PrMA2h0hcasxajw/1000s.jpg"
+                        alt="Craft Store">
+                    <h3>Craft Store</h3>
+                    <p>Unique handmade goods by local artisans.</p>
+                </div>
+                <div class="shop-card">
+                    <img src="https://clivesofcropthorne.co.uk/wp-content/uploads/elementor/thumbs/Farm-shop-q36bp30pomu23maikkqsngf6kre4g2n5zbaxq8w4mo.jpg"
+                        alt="Farm Shop">
+                    <h3>Farm Shop</h3>
+                    <p>Organic produce sourced directly from nearby farms.</p>
+                </div>
             </div>
         </div>
     </section>
-    <section id="shop" class="shop">
-        <a href="product.html" style="text-decoration: none; color: inherit;">
-            <div class="local">
-                <h2 style="margin-bottom: 20px;">Shop Local Products</h2>
-                <div class="shop-grid">
-                    <div class="shop-card">
-                        <img src="https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg"
-                            alt="Local Cafe">
-                        <h3>Local Cafe</h3>
-                        <p>Fresh coffee and pastries from the heart of the community.</p>
-                    </div>
-                    <div class="shop-card">
-                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/6HSuzb-PrMA2h0hcasxajw/1000s.jpg"
-                            alt="Craft Store">
-                        <h3>Craft Store</h3>
-                        <p>Unique handmade goods by local artisans.</p>
-                    </div>
-                    <div class="shop-card">
-                        <img src="https://clivesofcropthorne.co.uk/wp-content/uploads/elementor/thumbs/Farm-shop-q36bp30pomu23maikkqsngf6kre4g2n5zbaxq8w4mo.jpg"
-                            alt="Farm Shop">
-                        <h3>Farm Shop</h3>
-                        <p>Organic produce sourced directly from nearby farms.</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </section>
+    <div class="spacer"></div>
     <section id="events" class="events">
         <div class="comm">
             <h2 style="padding-bottom: 20px;">Upcoming Community Events</h2>
@@ -121,43 +128,46 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer>
         <p>Copyright@2024 Local Pulse | Designed by INITIATORS</p>
     </footer>
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            doc.setFontSize(20);
+            doc.text("Contact Us Details", 20, 20);
+            doc.setFontSize(12);
+            doc.text(`Name: ${name}`, 20, 40);
+            doc.text(`Email: ${email}`, 20, 50);
+            doc.text(`Message: ${message}`, 20, 60);
+
+            doc.save("contact_details.pdf");
+        });
+
+        var map = L.map('map').setView([51.505, -0.09], 13);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors`
+        }).addTo(map);
+
+        L.marker([51.5, -0.09]).addTo(map)
+            .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+            .openPopup();
+    </script>
+
 </body>
 
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script>
-    document.getElementById("contactForm").addEventListener("submit", function (event) {
-        event.preventDefault();
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
-        doc.setFontSize(20);
-        doc.text("Contact Us Details", 20, 20);
-        doc.setFontSize(12);
-        doc.text(`Name: ${name}`, 20, 40);
-        doc.text(`Email: ${email}`, 20, 50);
-        doc.text(`Message: ${message}`, 20, 60);
-        doc.save("contact_details.pdf");
-    });
-    function initMap() {
-        const location = { lat: -34.397, lng: 150.644 }; // Set your desired location
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 8,
-            center: location,
-        });
-        new google.maps.Marker({
-            position: location,
-            map: map,
-        });
-    }
-    // Load the map after the page loads
-    window.onload = initMap;
-
-</script>
